@@ -1,0 +1,29 @@
+nodes:                # ← move to top level
+  - id: 0
+    x: 0
+    y: 0
+  - id: 1
+    x: 10
+    y: 5
+  - id: 2
+    x: 20
+    y: 0
+
+agents:
+  - id: A
+    start: 0
+    goal: 2
+  - id: B
+    start: 2
+    goal: 1
+
+# Optional: annealer parameters.  dynamic_solve() already has these
+# defaults, but keeping them here is fine if you parse them elsewhere.
+config:
+  mode: dynamic
+  max_tick: 50
+  mini_iter: 200
+  start_temp: 100.0
+  cooling_rate: 0.9
+  min_temp: 0.01
+  quantum_jump_prob: 0.1

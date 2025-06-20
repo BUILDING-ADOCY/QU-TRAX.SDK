@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: qtrax_sdk
+Version: 0.1.0
+Summary: Quantum-Inspired Logistics Optimizer SDK — Q-TRAX
+Author: Suraj Mahapatra
+Author-email: contact@adocy.ai
+Requires-Python: >=3.9
+Requires-Dist: pydantic>=2.0
+Requires-Dist: typer[all]>=0.9
+Requires-Dist: rich>=13.0
+Requires-Dist: numpy>=1.24
+Requires-Dist: loguru>=0.7
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
